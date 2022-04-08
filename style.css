@@ -69,7 +69,6 @@ body {
 .tape-player {
   background:  #BEC2CB;
   width: 87%;
-  
   height: calc(63px * 3);
   border-radius: 30px;
   position:  relative;
@@ -94,7 +93,7 @@ mark {
 }
 
 
-#left-reel {
+.left-reel {
   width: 140px;
   height: 140px;
   background: white;
@@ -108,7 +107,7 @@ mark {
   border: 2px solid transparent;
 }
 
-#right-reel {
+.right-reel {
   border-radius: 50%;
   height: 140px;
   width: 140px;
@@ -186,7 +185,7 @@ mark {
 }
 
 
-.tape-player.playing > #left-reel, .tape-player.playing > #right-reel {
+.tape-player.playing > .left-reel, .tape-player.playing > .right-reel {
   animation-play-state: running;
 }
 
@@ -217,7 +216,7 @@ background-color: #6c6c70;
 }
 
 
-.tape-player.has-tape > #left-reel, .tape-player.has-tape > #right-reel {
+.tape-player.has-tape > .left-reel, .tape-player.has-tape > .right-reel {
   border: 2px solid #333;
   z-index: 2;
 }
