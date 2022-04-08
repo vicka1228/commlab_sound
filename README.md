@@ -19,11 +19,12 @@ First, we made a script, which went through several rounds of editing to shorten
 For our website, we decided to keep it relatively simple. We used HTML and CSS to create an object that looks like a cassette player. We then used CSS animations to make it seem as if the cassette player was actually reeling a tape while it played the introduction (and later Chapter 5). For the rest of our website, we used GIFs hosted in divs to represent each season. The GIFs are clickable, clicking on them plays the corresponding audio. Clicking again will pause the audio.
 We coded on the website collaboratively using Replit, a web-based collaborative IDE.
 
-## Reflection/Evaluation: (This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.)
+## Reflection/Evaluation: 
 We feel that our expectations have been met in this project. We have good audio, and good accompanying visuals. We had considered more complicated scroll animations for the entire wesite, and automatically pausing audio on scrolling away, but these were found to be either difficult to implement in the time frame, or would have interfered with the User Experience.
 Overall, we are happy with this project, and we did learn a lot while making it.
 
-### Additional Sources (just in case we need to put references)
+### Additional Sources
+Tape recorder: https://codepen.io/bedekelly/pen/rQJdaK
 
 ### Free sound credits:
 Pixabay.com
