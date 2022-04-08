@@ -14,13 +14,10 @@ header {
 h1{
 
   font-family: 'Orbitron', sans-serif;
-
-  font-size: 50px;
+  font-size: 3em;
   color: #8a5205;
   
 }
-
-
 
 
 .secondhead{
@@ -51,10 +48,33 @@ body {
 .chap-heading{
   display: block;
   background: #000000;
-  color: #ffffff;
+  color: #8a5205;
+  font-family: 'Orbitron', sans-serif;
   font-size: 1.1em;
   width: 100%;
   padding: 5%;
+  text-align: center;
+}
+
+.chap-heading p{
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+}
+
+.instructions{
+  display: block;
+  background: #289fe3;
+  color: #e8e0d5;
+  font-size: 1.1em;
+  width: 60%;
+  padding: 1%;
+  text-align: center;
+}
+
+#chap5bg{
+  left: 0;
+  width: 1290px;
   text-align: center;
 }
 
@@ -287,6 +307,3 @@ background-color: #6c6c70;
   background-color: #222222;
   color: #ffffff;
 }
-
-
-
