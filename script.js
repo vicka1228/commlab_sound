@@ -50,7 +50,7 @@ function toggleChap1Play() {
 
 //Chapter 2
 function toggleChap2Play() {
-  if(chap1aud.paused) {
+  if(chap2aud.paused) {
       if (audnow != chap2aud) {
         audnow.pause(); //Pauses other audio
         if (player1.className.indexOf("playing") !== -1) {
