@@ -59,11 +59,9 @@ function toggleChap2Play() {
           player2.classList.remove("playing")
         }; //Pauses the tape player animation
       };
-      console.log("Played!");
       chap2aud.play();
       audnow = chap2aud;
     } else if(!chap2aud.paused){
-      console.log("Paused!");
       chap2aud.pause();
   }
 }
