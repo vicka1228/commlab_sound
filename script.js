@@ -28,9 +28,15 @@ function toggleIntroPlay() {
   } else {
     intro.pause();
     player1.classList.remove("playing");
-  }
-}
+  };
+};
 
+//Trigger Animation Pause on End of Intro
+intro.onended = function() {
+  player1.classList.remove("playing");
+};
+
+//Chapter 1
 function toggleChap1Play() {
   if(chap1aud.paused) {
       if (audnow != chap1aud) {
@@ -45,8 +51,8 @@ function toggleChap1Play() {
       audnow = chap1aud;
     } else if(!chap1aud.paused){
       chap1aud.pause();
-  }
-}
+  };
+};
 
 //Chapter 2
 function toggleChap2Play() {
@@ -63,8 +69,8 @@ function toggleChap2Play() {
       audnow = chap2aud;
     } else if(!chap2aud.paused){
       chap2aud.pause();
-  }
-}
+  };
+};
 
 //Chapter 3
 function toggleChap3Play() {
@@ -81,8 +87,8 @@ function toggleChap3Play() {
       audnow = chap3aud; //Needed to check current playing audio
     } else if(!chap3aud.paused){
       chap3aud.pause();
-  }
-}
+  };
+};
 
 //Chapter 4
 function toggleChap4Play() {
@@ -99,8 +105,8 @@ function toggleChap4Play() {
       audnow = chap4aud;
     } else if(!chap4aud.paused){
       chap4aud.pause();
-  }
-}
+  };
+};
 
 //Toggle Chapter 5 Cassette Player
 function toggleChap5Play() {
@@ -114,14 +120,18 @@ function toggleChap5Play() {
       }; //Pauses the tape player animation
     };
     chap5aud.play();
-    audnow = chap5aud;
     player2.classList.add("playing");
-
+    audnow = chap5aud;
   } else {
     chap5aud.pause();
     player2.classList.remove("playing");
-  }
-}
+  };
+};
+
+//Trigger Animation Pause on End of Chapter 5
+chap5aud.onended = function() {
+  player2.classList.remove("playing");
+};
 
 // use for creating an instance when audio is finished
 // var aud = document.getElementById("myAudio");
